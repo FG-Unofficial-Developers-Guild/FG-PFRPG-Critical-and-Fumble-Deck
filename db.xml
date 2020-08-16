@@ -1,0 +1,5379 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.3">
+	<library>
+		<pfrpgcriticalandfumbledecks static="true">
+			<categoryname type="string">PFRPG Compendium</categoryname>
+			<name type="string">pfrpgcriticalandfumbledecks</name>
+			<entries>
+				<aacommunity>
+				  <librarylink type="windowreference">
+					<class>referencetext</class>
+					<recordname>communityuse</recordname>
+				  </librarylink>
+				  <name type="string">Community Use Statement</name>
+				</aacommunity>
+				<ablicense>
+				  <librarylink type="windowreference">
+					<class>referencetext</class>
+					<recordname>license</recordname>
+				  </librarylink>
+				  <name type="string">Open Gaming License</name>
+				</ablicense>
+				<disease>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">PFRPG Critical and Fumble Decks</name>
+					<recordtype type="string">table</recordtype>
+				</disease>
+			</entries>
+		</pfrpgcriticalandfumbledecks>
+	</library>
+	<communityuse>
+		<name type="string">Community Use Statement</name>
+		<text type="formattedtext">
+		  <p>This<i>Fantasy Grounds Module</i> uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This<i>Fantasy Grounds Module</i> is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.</p>
+		</text>
+	</communityuse>
+	<license>
+		<librarylink type="windowreference">
+		  <class>referencetextwide</class>
+		  <recordname>..</recordname>
+		</librarylink>
+		<name type="string">Open Gaming License</name>
+		<text type="formattedtext">
+		  <p>
+			<b>Open Game License Version 1.0a</b>
+		  </p>
+		  <p>The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.</p>
+		  <p>1. Definitions:</p>
+		  <list>
+			<li>(a) "Contributors" means the copyright and/or trademark owners who have contributed Open Game Content;</li>
+			<li>(b) "Derivative Material" means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted;</li>
+			<li>(c) "Distribute" means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute;</li>
+			<li>(d) "Open Game Content" means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity.</li>
+			<li>(e) "Product Identity" means product and product line names, logos and identifying marks including trade dress; artifacts, creatures, characters, stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content;</li>
+			<li>(f) "Trademark" means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor</li>
+			<li>(g) "Use", "Used" or "Using" means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content.</li>
+			<li>(h) "You" or "Your" means the licensee in terms of this agreement.</li>
+		  </list>
+		  <p>2. The License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.</p>
+		  <p>3. Offer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.</p>
+		  <p>4. Grant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.</p>
+		  <p>5. Representation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.</p>
+		  <p>6. Notice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder's name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.</p>
+		  <p>7. Use of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.</p>
+		  <p>8. Identification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.</p>
+		  <p>9. Updating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.</p>
+		  <p>10. Copy of this License: You MUST include a copy of this License with every copy of the Open Game Content You distribute.</p>
+		  <p>11. Use of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.</p>
+		  <p>12. Inability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.</p>
+		  <p>13. Termination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.</p>
+		  <p>14. Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.</p>
+		  <p>
+			<b>15. COPYRIGHT NOTICE</b>
+		  </p>
+		  <p>
+			<i>Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.</i>
+		  </p>
+		  <list>
+			<li>
+			  <b>System Reference Document.</b> Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.</li>
+			<li>
+			  <b>Pathfinder Roleplaying Game Reference Document.</b> © 2011, Paizo Publishing, LLC; Author: Paizo Publishing, LLC.</li>
+			<li>
+			  <b>Pathfinder Roleplaying Game Core Rulebook.</b> © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.</li>
+			<li>
+			  <b>GameMastery Critical Hit Deck.</b> © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn et al, ISBN-13: 978-1-60125-195-4.</li>
+			<li>
+			  <b>GameMastery Critical Fumble Deck.</b> © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn et al, ISBN-13: 978-1-60125-236-4.</li>
+		  </list>
+		</text>
+	</license>
+	<tables>
+		<fumble>
+			<name type="string">Fumble</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">1</resultscols>
+			<tablerows>
+				<id-00000>
+					<fromrange type="number">1</fromrange>
+					<torange type="number">4</torange>
+					<results>
+						<id-00000>
+							<result type="string">MISS</result>
+						</id-00000>
+					</results>
+				</id-00000>
+				<id-00001>
+					<fromrange type="number">5</fromrange>
+					<torange type="number">6</torange>
+					<results>
+						<id-00000>
+							<result type="string">FUMBLE! Roll on the appropriate fumble table...</result>
+							<!-- <resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.fumbletypes</recordname>
+							</resultlink> -->
+						</id-00000>
+					</results>
+				</id-00001>
+			</tablerows>
+			<labelcol1 type="string">Outcome</labelcol1>
+		</fumble>
+		<fumbletypes>
+			<name type="string">Type of Fumble</name>
+			<description type="string"></description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">1</resultscols>
+			<tablerows>
+				<id-00000>
+					<cardused type="number">0</cardused>
+					<cardusedupdateflag type="number">0</cardusedupdateflag>
+					<fromrange type="number">0</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Fumble - Melee</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.fumble_melee</recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00000>
+				<id-00001>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Fumble - Ranged</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.fumble_ranged</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Fumble - Natural</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.fumble_natural</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Fumble - Magic</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.fumble_magic</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00003>
+			</tablerows>
+			<labelcol1 type="string">Type</labelcol1>
+		</fumbletypes>
+
+		<criticalhit>
+			<name type="string">Critical Hit</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">1</resultscols>
+			<tablerows>
+				<id-00000>
+					<fromrange type="number">1</fromrange>
+					<torange type="number">4</torange>
+					<results>
+						<id-00000>
+							<result type="string">STANDARD CRITICAL</result>
+						</id-00000>
+					</results>
+				</id-00000>
+				<id-00001>
+					<fromrange type="number">5</fromrange>
+					<torange type="number">6</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRITICAL! Roll on the appropriate critical table...</result>
+							<!-- <resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.criticalhittypes</recordname>
+							</resultlink> -->
+						</id-00000>
+					</results>
+				</id-00001>
+			</tablerows>
+			<labelcol1 type="string">Outcome</labelcol1>
+		</criticalhit>
+		<criticalhittypes>
+			<name type="string">Type of Critical Hit</name>
+			<description type="string"></description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">1</resultscols>
+			<tablerows>
+				<id-00000>
+					<fromrange type="number">0</fromrange>
+					<results>
+						<id-00001>
+							<result type="string">Critical Hit - Slashing</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.critical_slashing</recordname>
+							</resultlink>
+						</id-00001>
+					</results>
+					<torange type="number">0</torange>
+				</id-00000>
+				<id-00001>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Critical Hit - Piercing</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.critical_piercing</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Critical Hit - Bludgeoning</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.critical_bludgeoning</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">0</fromrange>
+					<torange type="number">0</torange>
+					<results>
+						<id-00000>
+							<result type="string">Critical Hit - Magic</result>
+							<resultlink type="windowreference">
+								<class>table</class>
+								<recordname>tables.critical_magic</recordname>
+							</resultlink>
+						</id-00000>
+					</results>
+				</id-00003>
+			</tablerows>
+			<labelcol1 type="string">Type</labelcol1>
+		</criticalhittypes>
+
+		<fumble_melee>
+			<name type="string">Fumble - Melee</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVEREXTEND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You provoke an attack of opportunity from all adjacent opponents.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRITICAL MISTAKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack hits you and is a critical threat.  You must roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">OFF BALANCE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on all attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">PIN PRICK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">WIDE OPEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">PULLED MUSCLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">FLING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You drop your weapon and it lands 1d6 squares away in a random direction.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">BACKSWING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">TOLD YOU IT WAS SHARP!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPINNING SWING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">SLIPPED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN BLADE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon is destroyed (Reflex negates). Magic weapons use their own save bonus.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">TOO MUCH STUFF!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You become entangled in your gear until you spend a standard action to free yourself.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">THE SWORD IS HEAVY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">BUTTERFINGERS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You drop your weapon.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">STRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">AWKWARD ATTACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty to AC for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOTCHED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon takes 1d6 points of damage, ignoring hardness.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">SORRY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits an ally adjacent to you or the target.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">CATCH YOUR BREATH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You can only take a move action next round.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">ALL OR NOTHING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -1 penalty on attack rolls until you score a critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">SURROUNDED BY FOES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits an ally within reach and is a critical threat.  Roll to confirm critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARMOR SMASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack deals damage to your armor.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">BONK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are stunned for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">NO WAY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack his the target, but deals minimum damage.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">THIS IS BAD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take an amount of bleed equal to your Str bonus (minimum 1).</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">ON THE RECEIVING END</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">BOHEMIAN EARSPOON</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are deafened until healed (DC 15 heal check).</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">HAND IT OVER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your target gains possession of your weapon (Ref negates).</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">FUNNY BONE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You drop whatever is in your off-hand.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">BENT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on all attacks with this weapon until it is repaired (DC 20 Craft check).</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHIELD CRASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack deals damage to your shield.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">BETTER TO GIVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack damages you instead.  Use your target's Str modifier.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">CUTTER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Str bleed.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">WINDED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are exhausted (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">STUCK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon is stuck in a nearby surface.  DC 20 Str check to free it.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">ATTACK THE DARKNESS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">All your enemies have concealment from you for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">WAIT, WHAT?!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are confused for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">WRONG END</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If you're using a slashing weapon, you take 1d6 points of damage and 1 point of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">VIBRATION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If you're using a bludgeoning weapon, you take 1d3 points of Str damage and drop your weapon.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">SECOND THOUGHTS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">EAT DIRT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You fall prone and blinded for 1d3 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU MEANT TO DO THAT!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Move 10 feet in a random direction and provoke attacks of opportunity as normal.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHO WAS THAT?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are dazed for 1d3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">BAD GRIP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon deals nonlethal damage for the next 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">PUNT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon flies 2d6 squares in a random direction.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">PARRY! DODGE! SPIN! THRUST!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are dazed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">CATASTROPHIC FAILURE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You fall unconscious for 1d6 rounds (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">POINTY END GOES THERE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN HAFT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon loses reach.  You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check).</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">GO FOR THE EYES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are blinded for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">FOG OF WAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You threaten no squares for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</fumble_melee>
+
+		<fumble_ranged>
+			<name type="string">Fumble - Ranged</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">ACHING BACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHOOPS!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">FRIENDLY FIRE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits your ally closest to the target.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPILLED AMMO</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your ammunition falls from its container and takes 1d6 rounds to gather up.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRACKED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon (not ammo) takes 1d6 points of damage, ignoring hardness.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">AWKWARD ATTACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty to AC for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">HEAD RUSH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">WIDE OPEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">KLUTZ</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You drop your weapon.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">NICKED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">BACKFIRE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">MY SPLEENY BITS!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">ERRANT AIM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Reroll attack against creature nearest the target (yourself excluded).</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">SNAPPED STRING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If attack was made with a bow or crossbow, the string breaks and requires 1d3 rounds to fix.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">TIED UP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You become entangled in your gear until you spend a standard action to free yourself.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU'LL SHOOT YOUR EYE OUT!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack hits you and is a critical threat.  Roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOTCHED FINGERS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">LOST THE TARGET</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on all attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">WRONG WEAPON</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If you made a thrown attack, you throw a random object from your gear.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">CLOSE TO THE EAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are deafened until healed (DC 15 heal check).</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">INSECURE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -1 penalty on attack rolls for 1d4 rounds or until you score a critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">LOST GRIP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You can only take a move action next round.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHOOT YOUR FOOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d2 points of Dex damage and your speed is reduced by half until healed.</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">AMAZING MISS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are stunned for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHAT ARE THE ODDS?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If you made a thrown attack, you hit the target, but the weapon ends up in the target's posession.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">IN THE LINE OF FIRE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits the nearest ally and is a critical threat.  You must roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">LOWERED GUARD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You provoke attacks of opportunity from all threatening foes.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your weapon is destroyed (Ref negates).  Magic weapons use their own save bonus (DMG 214).</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOT MY PONY!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits the nearest allied animal or mount.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">DOUBLE MISS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You use twice as much ammunition on this attack.</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">EVERYTHING YOU GOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are exhausted (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">WEAPON JAM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If using a projectile weapon, it does not function. Spend 1 standard action to clear it.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">UM, OOPS!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">BAD ALIGNMENT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalth on all attacks with this weapon until repaired (DC 20 Craft check).</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARCHER'S ELBOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty on all ranged attack rolls for 1d4 minutes.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">AIM CAREFULLY NEXT TIME</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">For 3 rounds, you must spend a full-round action to make a single attack.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">DON'T HIT ME!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">For 3 rounds, you take an additional -2 penalty on ranged attacks for each ally in melee combat with your target.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">PHANTOM WIND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You compensate for a breeze which isn't there.  You take a -2 penalty on ranged attack rolls for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">RECOIL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You move backward 1 square and fall prone.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">MIX IT UP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are unable to make ranged attacks for the next 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVERCOMPENSATE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">All targets with cover gain an additional +4 bonus to AC against you for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">MISJUDGED THE DISTANCE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">All attack rolls beyond the first range increment have triple the normal distance penalty for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">SEEING DOUBLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">All your attacks have a 50% miss chance for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">HUH?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are confused for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">SO MUCH BLOOD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">TORN TENDON</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Dex bleed.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVERTHROW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">TUNNEL VISION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">For the next 3 rounds, you have a +1 bonus on attack rolls, but you are flat-footed.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">ALL THUMBS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You lose your Dex bonus on attack rolls for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">PINCH IN PARTS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of damage.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">BULL'S EYE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your shot ricochets and hits you near the eye.  You are blinded for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</fumble_ranged>
+
+		<fumble_natural>
+			<name type="string">Fumble - Natural</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">UPSET TUMMY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">OUT OF POSITION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You cannot use this attack for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKE A NAIL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of damage and you cannot use this attack until healed.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">JUST A TASTE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits an ally adjacent to you or the target.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">FIST, MEET FACE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack hits you and is a critical thread.  You must roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">BIT ME TUG!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVEREXTEND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You provoke an attack of opportunity from all adjacent opponents.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">TRIPPED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">STOP HITTING YOURSELF!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">TWISTED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You become entangled in your gear until you spend a standard action to free yourself.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">BRUISED EGO</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You can attack no other target for 1d4 rounds (or until the target is dead).</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">FRUSTRATION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on all attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">BLEEDING FIST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">AWKWARD ATTACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty to AC for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">TORN MUSCLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Str drain (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">WIDE OPEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">TIRING ATTACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">MUSCLE TEAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d points of Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">GOT TOO CLOSE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits the target but the target may start a grapple against you for free.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">PINS AND NEEDLES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">GREAT ROAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are deafened until healed (DC 15 heal check).</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">BATTERED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty on skill checks and saves for 1d4 hours.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVEREXERTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are exhausted (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">BONE BRUISE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d2 points of Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHIRLWIND OF SHAME</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack deals damage to all of the targets adjacent to you except the original target.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">HEAD, MEET WALL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are dazed for 1d3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">FEROCIOUS FUMBLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits an ally within reach and is a critical thread.  Roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">SMASH THE FLOOR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You kick up dust that blinds you for 1d4 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">BAD HEADBUTT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are stunned for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">CAUGHT YOUR ATTACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target may attempt to trip, bull rush, or overrun you (target's choice).</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">HE'S SHARP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of damage  + your Str modifier.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">SNEEZE!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are dazed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">INGROWN NAIL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -1 penalty on attack rolls until you score a critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">HE BIT YOUR FIST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target deals bite damage to you.</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">OFF BALANCE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on all attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">BRUTAL COLLISION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits, but you are stunned for 2 rounds (Fort save reduces to 1 round).</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">PINCHED NERVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVERTHINK IT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your target's armor and natural armor bonuses are doubled against you for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">PUNCTURED FOOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d3 points of damage, and your speed is halved until healed.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">HANGNAIL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If this was a claw attack, slam, or unarmed strike, you cannot use that attack for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">THAT TASTED AWFUL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">If this was a bite attack, you are nauseated for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOT THE WEAK POINT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your enemy's armor takes 1d6 points of damage.  You take 1d6 points of damage and cannot use that attack for 1d3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN TOOTH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty on attack rolls for 1d6 minutes.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">EYE STRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are blinded for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">UNINTENTIONAL MOVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Move 10 feet in a random direction and provoke attacks of opportunity as normal.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">STINGING FAILURE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of nonlethal damage and a -2 penalty on attack rolls with that attack for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">DON'T PICK AT IT!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">WE HAVE A WEINER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You fall unconscious for 1d6 rounds (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHIFF</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">WINDS OF CHANGE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You threaten no squares for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">JAM A FINGER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your target takes normal damage, you take double damage.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</fumble_natural>
+
+		<fumble_magic>
+			<name type="string">Fumble - Magic</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">BACKBLAST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack hits you and is a critical threat. You must roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">MIND DRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d4 points of damage to Int, Wis, or Cha (determine randomly).</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">POWER DRAIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You lose one prepared spell or spell slot (determined randomly).</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">TIRING SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">DISTANCE RIFT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are teleported to the nearest square adjacent to the target.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARCANE FIRE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 2d6 points of fire damage.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">REFLECTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The spell hits you instead of the target (normal saved apply).</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">TANGLED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You become entangled in your gear until you spend a standard action to free yourself.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOT ME, YOU FOOL!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits your ally closest to the target.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">APPRENTICE MOVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Reroll attack against creature nearest the target (yourself excluded).</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOSE BLEED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">MONSTER RIFT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your spell is converted to a summon monster spell of the same level. The monster attacks randomly.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">VERTIGO</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are sickened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">BLEEDING EYES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1d6 points of bleed.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">MAGIC FATIGUE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You cannot cast any spells for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">COLD SNAP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 2d6 points of cold damge.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">ACIDIC BACKLASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 2d6 points of acid damge.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">ELECTRICAL FEEDBACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 2d6 points of electricity damage.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">WEAKENED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -2 penalty to all of your spell DCs for 1d4 minutes.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU MADE HIM STRONGER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target gains a +8 enhancement bonus to Str for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHY ME?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You provoke attacks of opportunity from all threatening foes.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">ERROR!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack deals damage to you instead of the target.</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">UNEXPECTED BLAST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The spell affects all targets within 30 feet of you.  You are immune to this effect.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">SIDE EFFECT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">One of your magic items permanently gains a random drawback (DMG 273).</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU MADE HIM BIGGER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Target increases one size category for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">JUMBLED COMPONENTS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You can only take a move action next round.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">CAN YOU HEAR ME NOW?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are deafened until healed (DC 15 heal check).</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">THE MAGIC IS GONE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -1 penalty on attack rolls until you score a critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU MADE HIM FASTER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target is hasted for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">CASTER'S BLOCK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You cannot cast this spell again for 24 hours.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">LEFT REELING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are stunned for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">YOU MADE HIM TOUGHER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target gains DR 5/- for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">HIT BY THE UGLY FOREST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Cha bleed.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">CLATTO VERATA NECKTIE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your attack hits the nearest ally and is a critical threat.  Roll to confirm the critical hit.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">POOR TRADE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The attack hits but you must lose a spell or slot of the highest available level (your choice).</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPELL SHIELD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The target gains SR equal to 11 + your caster level for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">POWER TRANSFER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">The highest-level spell effect on you is transferred to your target.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">MENTAL SLIP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">On his next turn, your target may give you one suggestion.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">POWER DOWN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Int bleed.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">WEAK-MINDED FOOL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Wis bleed.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">MAGICAL VACUUM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">1d3 spell effects active on you are dispelled (determined randomly).</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">ENERGY TRANSFER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Lose one randomly determined spell or spell slot.  Your target can cast this spell next round.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">HOW DID THAT HAPPEN?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">A stinking cloud appears, centered on you.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">FRAGMENTED MAGIC</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">1d4+2 mirror images spring up around your target. These images last for 1 minute or until destroyed.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">BLASTOFF</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are thrown 1d6x10 feet into the air (or in a random direction if flying) (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">IT'S SPARKLY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are blinded for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">CURSED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take a -4 penalty on attack rolls, saves, skill checks, and ability checks.  This effect can only be cured with remove curse.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">MAGICAL SMACKDOWN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You automatically fail your next saving throw.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">WILD MAGIC</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Roll twice on the Rod of Wonder table (DMG 237).</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">THIS IS HARD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You take 1 point of Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOW I SEE YOU...</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Your target becomes invisible for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">NOTHING TO FEAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">You are shaken for 2d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</fumble_magic>
+
+		<critical_slashing>
+			<name type="string">Critical - Slashing</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">LONG GASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 8 bleed.  A successful Heal check cuts the bleeding in half, rather than ending it.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">SEVERED SPINE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 3d6 Dex damage (Fort halves).</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">PAIN AND SIMPLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 nonlethal damage.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">RUPTURE ABDOMINAL CAVITY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 Con bleed.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">LEAN INTO THE BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage, but you drop your weapon.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">SURPRISE OPENING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and one free attack against the target with a -5 penalty.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">ACROSS THE EYES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target permanently blinded (Ref negates).</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">NERVE SLICE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target can take only one move or standard action next round.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">WE'VE GOT A BLEEDER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 2d6 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARMOR DAMAGE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and normal damage to target's armor.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">TERRIBLE GASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 Cha drain.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">GUT SLASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double Damage and 1d4 bleed.  Target cannot swallow whole until healed.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">FLAY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage plus 1d6 Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">THROAT SLASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 2d6 bleed.  Target cannot talk or breathe while bleeding.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">KNOCKBACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is pushed 1d6 squares directly away.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">CUT STRAPS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and double armor check penalty until fixed (DC 15 Craft).</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVERHAND CHOP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">MISSING DIGITS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target loses 1d3 fingers and takes 1 Con and Str drain (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHIELD CLEAVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and normal damage to target's shield.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">WEAPON STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and normal damage to target's weapon.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">LEG SWIPE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">DECAPITATION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and death (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">BAD PARRY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is disarmed (1 item).</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">MUSCLE WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d2 Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">SWING THROUGH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and one free attack against an adjacent foe at the same bonus.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">FLAT BLADE THWACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage but all damage is nonlethal.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">SEVERED HAND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target loses hand and takes 1d3 Con and Str drain (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHATTERED JAW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Con damage.  Target cannot speak or bite until healed.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">BEWILDERING DISPLAY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target takes a -2 penalty to AC for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">SEVERED TENDON</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d6 Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">DELAYED WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target takes bleed damage equal to your normal damage.</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">SAPPING SLASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">PARRYING STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +4 to your AC for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPUN AROUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">WING TEAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target loses flight if it uses wings.</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROW CUT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 bleed.  Target blinded while bleeding.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">DISEMBOWEL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 Con damage and 1d6 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">STAND ASIDE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and push target 1 square in any direction.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">MOMENTUM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +2 on all your attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">TANGLED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and you may automatically grapple the target.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">GORY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">HAMSTRING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Dex damage and target is knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROW TO CHIN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Con and Cha damage. -2 penalty on spot, search, and ranged attacks until healed.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">MISSING EAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Cha drain, -4 penalty on Listen checks until healed.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">UGLY WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d3 Cha damage and 1 Cha drain (Fort negates drain).</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">FINGERTIPPED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Dex damage. Target cannot use one hand until healed.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">HACK AND SLASH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and all critical threats against target automatically confirm for the next 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">CARVE YOUR INITIALS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target suffers from humiliation and may only attack you (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">LIP CUT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 bleed.  Target gains 20% spell failure chance for verbal spells until healed.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">WIDE OPEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target provokes attacks of opportunity from all threatening opponents.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">PAPER CUT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROAD SWIPE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d8 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</critical_slashing>
+
+		<critical_piercing>
+			<name type="string">Critical - Piercing</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">ELBOW PIERCED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target drops whatever is being held (1 item).</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">LODGED IN THE BONE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2 bleed.  This bleed requires a DC 20 Heal check to stop.</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">PUNCTURED LUNG</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target begins to drown 3 rounds later.  DC 20 Fort save after each round to end effect.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">NERVE CLUSTER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is stunned for 1d6 rounds (Fort save each round to act).</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">MUSCLE SEVERED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d6 Dex and 1d6 Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">FOREARM PIERCING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is disarmed (1 item).</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">CHEEK PIERCED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 bleed.  Target gains 50% spell failure chance for verbal spells until healed.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPINAL TAP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">PAINFUL POKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target can take only one move or standard action next round.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">KNOCKBACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is pushed 1d6 squares directly away.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">BLEEDER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d6 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">DEEP HURTING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">INFECTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target contracts filth fever (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">PIERCED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is dazed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">VENTILATED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 nonlethal damage.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">PINNED ARM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and one arm cannot move (DC 20 Str of Heal to be freed).</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">SUCKING CHEST WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is exhausted (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">STINGER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">VULNERABLE SHOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target takes 1d4 ability damage of your choice.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">IN A ROW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage to target and normal damage to adjacent target.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">HEART SHOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage and 1 Con bleed.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">NAILED IN PLACE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target cannot move (DC 20 Str check negates).</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">ACHILLES HEEL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Dex damage.  Target's speeds are reduced by half until healed.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">PENETRATING WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and ignore DR.</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">GRAZING HIT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is stunned for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">EYE PATCH FOR YOU</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage and 1d2 Con drain and -4 on spot, search, and ranged attacks until healed.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPUN AROUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">LEFT REELING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target takes a -2 penalty to AC for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">BICEP WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Str damage.</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">GUARDED STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +4 to your AC for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">RAGGED WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d8 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">PERFECT STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">TENACIOUS WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Con damage.  Target does not heal this damage naturally.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">LEG WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target's land speed is halved for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">ORGAN SCRAMBLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d6 Con damage.</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">DEEP WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is nauseated for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">PINHOLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 bleed. Target takes 1 additional bleed each round until healed.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">RIGHT IN THE EAR</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Int damage and 1 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">APPENDICITIS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is poisoned (treat as greenblood oil).</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">BLOWN BACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">MOMENTUM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +2 on all your attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHOULDER WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d2 Str and Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">TONGUE PIERCING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Con damage. Target gains 50% spell failure chance for verbal spells until healed.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">SURPRISE OPENING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and one free attack against the target with a -5 penalty.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">CALF HOLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Dex damage.  Target's land speed is halved until healed.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">KIDNEY PIERCING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target sickened for 2d4 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">CHIPPED BONE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">NICKED AN ARTERY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 2d6 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">JAVELIN CATCHER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d6 bleed if from ranged attack.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">CLEAN THROUGH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d6 bleed and 1 Con drain.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">OVERREACTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target provokes attacks of opportunity from all threatening opponents.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">HAND WOUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Dex damage. -4 penalty on all rolls using that hand until healed.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</critical_piercing>
+
+		<critical_bludgeoning>
+			<name type="string">Critical - Bludgeoning</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRUSHED TRACHEA</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target cannot breathe or speak.  DC 20 Heal check ends.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRUSHED INTESTINES</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Con bleed (DC 15 Fort negates, save each round).</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">BONE MASHER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and either 1d3 Dex damage and halve speed (leg) or 1d3 Str damage (arm).  Limb useless until healed.</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">COLLAPSED LUNG</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is staggered for 1d6 minutes.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">RUPTURED SPLEEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d6 bleed.  This bleed can only be cured with magic.</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRUNCH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is nauseated for 1 round (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">PAINTED-LADY SLAP</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target dazed for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN RIBS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target cannot heal naturally for 1d4 days.</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">NIGHTY NIGHT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is unconscious for 1d4 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">TERRIBLE BRUISE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 nonlethal damage.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">MY TEEF!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Con damage.  Target loses bite, gains 20% spell failure chance for verbal spells.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">KNOCKBACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is pushed 1d6 squares directly away.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">CONCUSSION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Int and Wis damage.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRUMPLING BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is knocked prone.</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">AND STAY DOWN!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is knocked prone and stunned for 1 round (Fort negates stun)</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">2 FOR 1</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage to target and normal damage to adjacent target.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">NUMBING BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Dex damage and target is disarmed (1 item, Ref negates drop).</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRUSHED TOE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Dex damage.  Target's land speed is halved until healed.</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">EARTH RUMBLE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal Damage and a free trip attempt versus target and all adjacent enemies.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN NOSE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 Cha damage and 1 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">STAGGERING BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and double nonlethal damage.</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">THUNDER STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is deafened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">LOW BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHIELD SMACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target's shield is disarmed.</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">BROKEN LEG</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d4 Con and Dex damage.  Target's speeds are reduced by half until healed.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARMOR DENT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 damage to metal armor (ignore hardness).</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">BREATHLESS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is exhausted for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPLIT OPEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">LIGHTS OUT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is blinded for 1d3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">RATTLED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is confused for 1d3 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">ROUNDHOUSE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and a free attack against all adjacent foes at the same bonus.</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">FLAT FOOT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 Dex damage and target's speeds reduced by 5 until healed.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">SOLID BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage.</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">TIRING BLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage plus target is fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPUN AROUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is flat-footed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">BACK BREAKER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d6 Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">I SEE STARS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target takes a 20% miss chance for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHATTERED HAND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Con and Str damage.  Hand useless until healed.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">BELL RINGER</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Int damage and sickened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">MOMENTUM</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +2 on all your attack rolls for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRACKED RIB</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d3 Con damage and target is fatigued.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">FEEBLE PARRY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is disarmed (1 item).</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">SURPRISE OPENING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and one free attack against the target with a -5 penalty.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHERE AM I?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is stunned for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">CRACKED KNIFE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1d2 Dex damage. Target's base land speed reduced to 10 feet until healed.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">BRAINED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target can take only one move or standard action next round.</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">OFF BALANCE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target provokes attacks of opportunity from all threatening opponents.</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">WHAT'S GOING ON?</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 hours of target's memory erased.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">BOX THE EARS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target deafened for 1d4 hours.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">TO YOUR THINKY BITS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1 Int bleed (Fort negates, save each round).</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">MACE TO DA FACE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target dazed and blinded 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">SKULL CRUSH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 Int drain (Fort halves).</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</critical_bludgeoning>
+
+		<critical_magic>
+			<name type="string">Critical - Magic</name>
+			<description type="string">House Rules Default</description>
+			<hiderollresults type="number">0</hiderollresults>
+			<resultscols type="number">2</resultscols>
+			<autocheckcard type="number">0</autocheckcard>
+			<usecardtable type="number">1</usecardtable>
+			<tablerows>
+				<id-00001>
+					<fromrange type="number">01</fromrange>
+					<torange type="number">01</torange>
+					<results>
+						<id-00000>
+							<result type="string">VULNERABILITY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and if the spell did elemental damage the target is now vulnerable to that element for 3 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00001>
+				<id-00002>
+					<fromrange type="number">02</fromrange>
+					<torange type="number">02</torange>
+					<results>
+						<id-00000>
+							<result type="string">I LOVE YOU MAN!</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is charmed for 3 rounds (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00002>
+				<id-00003>
+					<fromrange type="number">03</fromrange>
+					<torange type="number">03</torange>
+					<results>
+						<id-00000>
+							<result type="string">HYPNOTIC LINK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and you may give the target 1 suggestion (as the spell, Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00003>
+				<id-00004>
+					<fromrange type="number">04</fromrange>
+					<torange type="number">04</torange>
+					<results>
+						<id-00000>
+							<result type="string">TRANSPOSITION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and you and target switch places.</result>
+						</id-00001>
+					</results>
+				</id-00004>
+				<id-00005>
+					<fromrange type="number">05</fromrange>
+					<torange type="number">05</torange>
+					<results>
+						<id-00000>
+							<result type="string">FUNNY BONE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target spends 1 round laughing (as hideous laughter spell, Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00005>
+				<id-00006>
+					<fromrange type="number">06</fromrange>
+					<torange type="number">06</torange>
+					<results>
+						<id-00000>
+							<result type="string">ALLERGIC REACTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 damage to a random ability score.</result>
+						</id-00001>
+					</results>
+				</id-00006>
+				<id-00007>
+					<fromrange type="number">07</fromrange>
+					<torange type="number">07</torange>
+					<results>
+						<id-00000>
+							<result type="string">TURNED AROUND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target can take only one move or standard action next round.</result>
+						</id-00001>
+					</results>
+				</id-00007>
+				<id-00008>
+					<fromrange type="number">08</fromrange>
+					<torange type="number">08</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARCANE BLAST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 2d6 random energy damage (Ref halves).</result>
+						</id-00001>
+					</results>
+				</id-00008>
+				<id-00009>
+					<fromrange type="number">09</fromrange>
+					<torange type="number">09</torange>
+					<results>
+						<id-00000>
+							<result type="string">SIREN SONG</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage or triple damage to giants, humanoids, and monstrous humanoids.</result>
+						</id-00001>
+					</results>
+				</id-00009>
+				<id-00010>
+					<fromrange type="number">10</fromrange>
+					<torange type="number">10</torange>
+					<results>
+						<id-00000>
+							<result type="string">DRAINING SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target randomly loses one spell or one use of a spell-like ability.</result>
+						</id-00001>
+					</results>
+				</id-00010>
+				<id-00011>
+					<fromrange type="number">11</fromrange>
+					<torange type="number">11</torange>
+					<results>
+						<id-00000>
+							<result type="string">EXCRUCIATING</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is sickened for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00011>
+				<id-00012>
+					<fromrange type="number">12</fromrange>
+					<torange type="number">12</torange>
+					<results>
+						<id-00000>
+							<result type="string">SPLASH SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and half damage to all adjacent targets.</result>
+						</id-00001>
+					</results>
+				</id-00012>
+				<id-00013>
+					<fromrange type="number">13</fromrange>
+					<torange type="number">13</torange>
+					<results>
+						<id-00000>
+							<result type="string">CORROSIVE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage.  If acid spell target takes 2d6 acid damage for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00013>
+				<id-00014>
+					<fromrange type="number">14</fromrange>
+					<torange type="number">14</torange>
+					<results>
+						<id-00000>
+							<result type="string">LIFE LEECH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and 1 negative level (Fort negates after 1 day).</result>
+						</id-00001>
+					</results>
+				</id-00014>
+				<id-00015>
+					<fromrange type="number">15</fromrange>
+					<torange type="number">15</torange>
+					<results>
+						<id-00000>
+							<result type="string">FROZEN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage.  If cold spell, target takes 1d4 Dex damage.</result>
+						</id-00001>
+					</results>
+				</id-00015>
+				<id-00016>
+					<fromrange type="number">16</fromrange>
+					<torange type="number">16</torange>
+					<results>
+						<id-00000>
+							<result type="string">ELECTROCUTED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage.  If electricity spell, target stunned for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00016>
+				<id-00017>
+					<fromrange type="number">17</fromrange>
+					<torange type="number">17</torange>
+					<results>
+						<id-00000>
+							<result type="string">KNOCKBACK</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is pushed 1d6 squares directly away.</result>
+						</id-00001>
+					</results>
+				</id-00017>
+				<id-00018>
+					<fromrange type="number">18</fromrange>
+					<torange type="number">18</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARCANE GOO</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is entangled (DC 20 Str or Escape Artist to be freed).</result>
+						</id-00001>
+					</results>
+				</id-00018>
+				<id-00019>
+					<fromrange type="number">19</fromrange>
+					<torange type="number">19</torange>
+					<results>
+						<id-00000>
+							<result type="string">WILD SURGE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and normal damage of a random energy type.</result>
+						</id-00001>
+					</results>
+				</id-00019>
+				<id-00020>
+					<fromrange type="number">20</fromrange>
+					<torange type="number">20</torange>
+					<results>
+						<id-00000>
+							<result type="string">NERVE DAMAGE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is slowed for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00020>
+				<id-00021>
+					<fromrange type="number">21</fromrange>
+					<torange type="number">21</torange>
+					<results>
+						<id-00000>
+							<result type="string">TERRIFYING DISPLAY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target frightened for 1d4 rounds (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00021>
+				<id-00022>
+					<fromrange type="number">22</fromrange>
+					<torange type="number">22</torange>
+					<results>
+						<id-00000>
+							<result type="string">RETURNING SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and spell is not lost.</result>
+						</id-00001>
+					</results>
+				</id-00022>
+				<id-00023>
+					<fromrange type="number">23</fromrange>
+					<torange type="number">23</torange>
+					<results>
+						<id-00000>
+							<result type="string">PLANAR RIFT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target sent to a random plane (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00023>
+				<id-00024>
+					<fromrange type="number">24</fromrange>
+					<torange type="number">24</torange>
+					<results>
+						<id-00000>
+							<result type="string">INTENSE STRIKE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and ignore energy resistance (but not immunity).</result>
+						</id-00001>
+					</results>
+				</id-00024>
+				<id-00025>
+					<fromrange type="number">25</fromrange>
+					<torange type="number">25</torange>
+					<results>
+						<id-00000>
+							<result type="string">MAXIMUM EFFECT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Maximize all spell variables.</result>
+						</id-00001>
+					</results>
+				</id-00025>
+				<id-00026>
+					<fromrange type="number">26</fromrange>
+					<torange type="number">26</torange>
+					<results>
+						<id-00000>
+							<result type="string">ARCANE GLOW</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target glows like faerie fire for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00026>
+				<id-00027>
+					<fromrange type="number">27</fromrange>
+					<torange type="number">27</torange>
+					<results>
+						<id-00000>
+							<result type="string">COMBUSTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage.  If fire spell, target catches fire, taking 2d6 fire damage per round until extinguished.</result>
+						</id-00001>
+					</results>
+				</id-00027>
+				<id-00028>
+					<fromrange type="number">28</fromrange>
+					<torange type="number">28</torange>
+					<results>
+						<id-00000>
+							<result type="string">AURA OF PROTECTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and +4 to your AC for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00028>
+				<id-00029>
+					<fromrange type="number">29</fromrange>
+					<torange type="number">29</torange>
+					<results>
+						<id-00000>
+							<result type="string">ROARING SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is deafened for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00029>
+				<id-00030>
+					<fromrange type="number">30</fromrange>
+					<torange type="number">30</torange>
+					<results>
+						<id-00000>
+							<result type="string">POWER SURGE</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Triple damage.</result>
+						</id-00001>
+					</results>
+				</id-00030>
+				<id-00031>
+					<fromrange type="number">31</fromrange>
+					<torange type="number">31</torange>
+					<results>
+						<id-00000>
+							<result type="string">CONCUSSIVE SPELL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and 1d4 bleed.</result>
+						</id-00001>
+					</results>
+				</id-00031>
+				<id-00032>
+					<fromrange type="number">32</fromrange>
+					<torange type="number">32</torange>
+					<results>
+						<id-00000>
+							<result type="string">LIGHT BLAST</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is blinded for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00032>
+				<id-00033>
+					<fromrange type="number">33</fromrange>
+					<torange type="number">33</torange>
+					<results>
+						<id-00000>
+							<result type="string">PHASED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is incorporeal for 1d3 rounds (Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00033>
+				<id-00034>
+					<fromrange type="number">34</fromrange>
+					<torange type="number">34</torange>
+					<results>
+						<id-00000>
+							<result type="string">TIME VORTEX</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target vanishes, reappearing in 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00034>
+				<id-00035>
+					<fromrange type="number">35</fromrange>
+					<torange type="number">35</torange>
+					<results>
+						<id-00000>
+							<result type="string">ELEMENTAL CALL</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage. If elemental spell, Medium elemental appears to serve for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00035>
+				<id-00036>
+					<fromrange type="number">36</fromrange>
+					<torange type="number">36</torange>
+					<results>
+						<id-00000>
+							<result type="string">DISPELLING AURA</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and dispel magic on the target.</result>
+						</id-00001>
+					</results>
+				</id-00036>
+				<id-00037>
+					<fromrange type="number">37</fromrange>
+					<torange type="number">37</torange>
+					<results>
+						<id-00000>
+							<result type="string">CONDUIT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target takes a -4 penalty on saves versus your spells for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00037>
+				<id-00038>
+					<fromrange type="number">38</fromrange>
+					<torange type="number">38</torange>
+					<results>
+						<id-00000>
+							<result type="string">VAMPIRIC MAGIC</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage.  You are healed for the same amount.</result>
+						</id-00001>
+					</results>
+				</id-00038>
+				<id-00039>
+					<fromrange type="number">39</fromrange>
+					<torange type="number">39</torange>
+					<results>
+						<id-00000>
+							<result type="string">PETRIFIED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is petrified for 1d4 hours (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00039>
+				<id-00040>
+					<fromrange type="number">40</fromrange>
+					<torange type="number">40</torange>
+					<results>
+						<id-00000>
+							<result type="string">PETTY COLORS</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is dazzled for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00040>
+				<id-00041>
+					<fromrange type="number">41</fromrange>
+					<torange type="number">41</torange>
+					<results>
+						<id-00000>
+							<result type="string">STUNNED</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is stunned for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00041>
+				<id-00042>
+					<fromrange type="number">42</fromrange>
+					<torange type="number">42</torange>
+					<results>
+						<id-00000>
+							<result type="string">CUT OFF FROM MAGIC</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target cannot cast spells or use spell-like abilities for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00042>
+				<id-00043>
+					<fromrange type="number">43</fromrange>
+					<torange type="number">43</torange>
+					<results>
+						<id-00000>
+							<result type="string">OLFACTORY OVERLOAD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target loses scent and blindsense for 1 day.</result>
+						</id-00001>
+					</results>
+				</id-00043>
+				<id-00044>
+					<fromrange type="number">44</fromrange>
+					<torange type="number">44</torange>
+					<results>
+						<id-00000>
+							<result type="string">MIND CLOUD</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and target is dazed for 1 round.</result>
+						</id-00001>
+					</results>
+				</id-00044>
+				<id-00045>
+					<fromrange type="number">45</fromrange>
+					<torange type="number">45</torange>
+					<results>
+						<id-00000>
+							<result type="string">SIDE EFFECT</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and you become invisible for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00045>
+				<id-00046>
+					<fromrange type="number">46</fromrange>
+					<torange type="number">46</torange>
+					<results>
+						<id-00000>
+							<result type="string">EYEBURN</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target blinded for 1d4 rounds (Fort negates).</result>
+						</id-00001>
+					</results>
+				</id-00046>
+				<id-00047>
+					<fromrange type="number">47</fromrange>
+					<torange type="number">47</torange>
+					<results>
+						<id-00000>
+							<result type="string">SHRINK RAY</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage and target is reduced for 3 rounds (as reduce person spell, Will negates).</result>
+						</id-00001>
+					</results>
+				</id-00047>
+				<id-00048>
+					<fromrange type="number">48</fromrange>
+					<torange type="number">48</torange>
+					<results>
+						<id-00000>
+							<result type="string">DISTRACTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and an illusion appears to attack foe, flanking him for you for 1d6 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00048>
+				<id-00049>
+					<fromrange type="number">49</fromrange>
+					<torange type="number">49</torange>
+					<results>
+						<id-00000>
+							<result type="string">CALL OF THE WIND</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage or triple damage to animals, few, magical beasts and vermin.</result>
+						</id-00001>
+					</results>
+				</id-00049>
+				<id-00050>
+					<fromrange type="number">50</fromrange>
+					<torange type="number">50</torange>
+					<results>
+						<id-00000>
+							<result type="string">HOARDER'S WRATH</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage and triple damage to dragons.</result>
+						</id-00001>
+					</results>
+				</id-00050>
+				<id-00051>
+					<fromrange type="number">51</fromrange>
+					<torange type="number">51</torange>
+					<results>
+						<id-00000>
+							<result type="string">UNNATURAL SELECTION</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Double damage or triple damage to aberrations and outsiders.</result>
+						</id-00001>
+					</results>
+				</id-00051>
+				<id-00052>
+					<fromrange type="number">52</fromrange>
+					<torange type="number">52</torange>
+					<results>
+						<id-00000>
+							<result type="string">LINGERING MAGIC</result>
+						</id-00000>
+						<id-00001>
+							<result type="string">Normal damage this round and half damage each round for 1d4 rounds.</result>
+						</id-00001>
+					</results>
+				</id-00052>
+			</tablerows>
+			<labelcol1 type="string">Result</labelcol1>
+			<labelcol2 type="string">Description</labelcol2>
+		</critical_magic>
+	</tables>
+</root>
